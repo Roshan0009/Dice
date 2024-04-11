@@ -1,0 +1,60 @@
+/* Roshan Lamichhane
+ C0916262
+ */
+body {
+    background-color: black;
+    color: white;
+    text-align: center; /* aliginig all the text to the center */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: start; 
+    min-height: 100vh; 
+    margin: 0;
+}
+
+#gameTitle {
+    margin: 20px 0; /* Adjust spacing */
+    color: hwb(9 4% 5%); /*Adjustin the color of heading to red  */
+}
+
+#gameContainer {
+
+    text-align: center;
+}
+.active {
+    font-weight: bold;
+    color: hsl(15, 100%, 50%); /* SO here the color of the player changes if its his turn to roll the dice*/
+}
+
+
+#diceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice {
+    margin: 0 20px; /* Making some space between the dice */
+}
+
+.dice img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+button {
+    background-color: hsl(53, 3%, 46%);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Spacing the button */
+}
+
+button:hover {
+    background-color: hsl(14, 87%, 43%);
+}
