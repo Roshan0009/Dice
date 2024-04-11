@@ -1,0 +1,39 @@
+<!--Roshan Lamichhane
+C0916262
+Assignment 7-8-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="dice.css" />
+    <!--Linking the stylesshet with html-->
+  </head>
+  <body>
+    <h1 id="gameTitle">Roshan Dice Game</h1>
+    <!--This is my heading-->
+    <div id="gameContainer">
+      <div id="diceContainer">
+        <div class="dice">
+          <p>Player 1</p>
+          <!-- Setting default image for player 1 when the page load for first time-->
+          <img src="dice1.png" id="dice1" alt="Dice" />
+        </div>
+        <div class="dice">
+          <p>Player 2</p>
+          <!--Setting default image for player 1 when the page load for Second time -->
+          <img src="dice2.png" id="dice2" alt="Dice" />
+        </div>
+      </div>
+      <button id="rollButton">Roll Dice</button>
+      <div id="scoreContainer">
+        <p>Player 1 Score: <span id="player1Score">0</span></p>
+        <p>Player 2 Score: <span id="player2Score">0</span></p>
+      </div>
+      <p id="winnerAnnouncement"></p>
+    </div>
+    <script src="dice.js"></script>
+    <!--Linking my javascrpit with html-->
+  </body>
+</html>
